@@ -14,6 +14,7 @@ module.exports = {
             }
             else {
                 return "https://www.youtube.com/watch?v=_4e3wV2b3P0";
+            }
         }
         else if (message.toLowerCase().includes("trump")){
             return  "Orange Man Bad";
