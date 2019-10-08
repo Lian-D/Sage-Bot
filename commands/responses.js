@@ -10,7 +10,7 @@ module.exports = {
                 return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
             else{
-                return "https://www.youtube.com/watch?v=agPj0S4weDo";
+                return "https://www.youtube.com/watch?v=2vWFEylvELI";
             }
         }
         else if (message.toLowerCase().includes("trump")){
