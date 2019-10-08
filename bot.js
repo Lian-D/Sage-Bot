@@ -12,6 +12,9 @@ client.on('message', message => {
     if (message.content == "dab"){
         message.channel.send(" ", { files: ["./resources/dab2.png"] });
     }
+    if (message.content == "our lord and savior"){
+        message.channel.send(" ", { files: ["./resources/lord.png"] });
+    }
     var response = responses.response(message.content);
     if (response != null){
         message.channel.send(response);
