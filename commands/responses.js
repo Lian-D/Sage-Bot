@@ -39,9 +39,8 @@ module.exports = {
             return "Translator's Note: Keikaku means plan";
             
         }
-        else if (message.toLowerCase().includes("fuck" or "shit" or "bitch" or "cunt")){
-            return "WARNING, THIS IS A FEMINIST QUEER SOCIALIST SERVER, SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE AND RECTAL INSERTION OF SILICONE OBJECTS ON GOOBYLIFES STREAMS";
-            
+        else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt")){
+            return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE AND RECTAL INSERTION OF SILICONE OBJECTS ON GOOBYLIFES STREAMS";
         }
         else{
             return null;
