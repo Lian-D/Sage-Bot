@@ -33,9 +33,15 @@ module.exports = {
         }
         else if (message == "status"){
             return (((Math.ceil(Math.random()*10) % 2)) == 1);
+            
         }
         else if (message.toLowerCase().includes("keikaku")){
             return "Translator's Note: Keikaku means plan";
+            
+        }
+        else if (message.toLowerCase().includes("fuck" or "shit" or "bitch" or "cunt")){
+            return "WARNING, THIS IS A FEMINIST QUEER SOCIALIST SERVER, SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE AND RECTAL INSERTION OF SILICONE OBJECTS ON GOOBYLIFE'S STREAMS";
+            
         }
         else{
             return null;
