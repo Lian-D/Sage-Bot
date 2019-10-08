@@ -6,12 +6,14 @@ module.exports = {
         }
         else if (message.toLowerCase().includes("garf")){
             var randomNumber = Math.random();
-            if (((Math.ceil(randomNumber*10)) % 2) == 1){
+            if ((Math.floor(Math.random() * 3) + 1) == 1){
                 return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
-            else{
+            else if (randomNumber == 2){
                 return "https://www.youtube.com/watch?v=2vWFEylvELI";
             }
+            else {
+                return "https://www.youtube.com/watch?v=_4e3wV2b3P0";
         }
         else if (message.toLowerCase().includes("trump")){
             return  "Orange Man Bad";
