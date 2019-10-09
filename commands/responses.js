@@ -89,17 +89,8 @@ module.exports = {
             return "https://gondola.stravers.net/random-raw";
         }
         
-        else if (message.toLowerCase().includes("/op")){
-            var based = 0;
-            if (message.toLowerCase().includes("EmperorDet")){
-                based = 1;
-                if (based == 1){
-                    return "ACCESS GRANTED, WELCOME SIR";
-                }
-                else{
-                    return "ERROR, PLEASE TRY AGAIN";
-                }
-            }
+        else if (message.toLowerCase().includes("/op") && (message.toLowerCase().includes("EmperorDet")){
+            return "ACCESS GRANTED, WELCOME SIR";
         }
         
         else if (message == "!help"){
