@@ -89,20 +89,15 @@ module.exports = {
             return "https://gondola.stravers.net/random-raw";
         }
         
-        else if (message.toLowerCase().includes("op")){
-            if (message.toLowerCase().includes("EmperorDet")){
-                return "ACCESS GRANTED, WELCOME SIR";
-            }
-            else {
-                return "ACCESS DENIED";
-            }
+        else if (message.toLowerCase().includes("420")){
+            return "DUDE WEED LMAO";
         }
         
         else if (message == "!help"){
             return "Help yourself, fag";
         }
         
-        else if (message == "Chris is a faggot"){
+        else if (message.toLowerCase() == "chris is a faggot"){
             return "No, YOU'RE a faggot";
         }
         
