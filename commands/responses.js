@@ -6,7 +6,7 @@ module.exports = {
         }
         else if (message.toLowerCase().includes("garf")){
             var randomNumber = Math.random();
-            if ((Math.floor(Math.random() * 10) + 1) == 1){
+            if ((Math.floor(Math.random() * 9) + 1) == 1){
                 return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
             else if (randomNumber == 2){
@@ -33,9 +33,7 @@ module.exports = {
             else if (randomNumber == 9){
                 return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
             }
-            else if (randomNumber == 10){
-                return "https://www.youtube.com/watch?v=s11yIPcKyQg";
-            }        
+       
         }
         else if (message.toLowerCase().includes("trump")){
             return  "Orange Man Bad";
