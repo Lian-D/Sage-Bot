@@ -74,7 +74,7 @@ module.exports = {
         }
         
         else if (message == "gondola"){
-            return "https://gondola.stravers.net/random";
+            return "https://gondola.stravers.net/random-raw";
         }
         
         else {
