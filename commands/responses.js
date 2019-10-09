@@ -92,6 +92,10 @@ module.exports = {
         else if (message == "!help"){
             return "Help yourself, fag";
         }
+        
+        else if (message == "Chris is a faggot"){
+            return "No, YOU'RE A FAGGOT";
+        }
             
         else {
             return null;
