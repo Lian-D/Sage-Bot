@@ -33,7 +33,7 @@ module.exports = {
             else if (randomNumber == 9){
                 return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
             }
-            else {
+            else if (randomNumber == 10){
                 return "https://www.youtube.com/watch?v=s11yIPcKyQg";
             }        
         }
