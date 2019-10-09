@@ -107,7 +107,7 @@ module.exports = {
         }
         
         else if (message.toLowerCase().includes(" ")){
-            return "https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable"
+            return "https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
         }
             
         else {
