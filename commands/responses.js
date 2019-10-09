@@ -64,7 +64,10 @@ module.exports = {
         
         else if (message.toLowerCase().includes("nigger")){
             return "HOL UP";
-            
+        }
+        
+        else if (message == "kaj"){
+            return "https://tenor.com/7bCg.gif";
         }
         else {
             return null;
