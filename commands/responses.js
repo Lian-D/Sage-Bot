@@ -6,15 +6,36 @@ module.exports = {
         }
         else if (message.toLowerCase().includes("garf")){
             var randomNumber = Math.random();
-            if ((Math.floor(Math.random() * 3) + 1) == 1){
+            if ((Math.floor(Math.random() * 10) + 1) == 1){
                 return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
             else if (randomNumber == 2){
                 return "https://www.youtube.com/watch?v=2vWFEylvELI";
             }
-            else {
+            else if (randomNumber == 3){
                 return "https://www.youtube.com/watch?v=_4e3wV2b3P0";
             }
+            else if (randomNumber == 4){
+                return "https://www.youtube.com/watch?v=dQPvhRlcmzs";
+            }
+            else if (randomNumber == 5){
+                return "https://www.youtube.com/watch?v=yfN-Zhyw-Bg";
+            }
+            else if (randomNumber == 6){
+                return "https://www.youtube.com/watch?v=cf3QUyEUI-s";
+            }
+            else if (randomNumber == 7){
+                return "https://www.youtube.com/watch?v=gRVLGbqsKAw";
+            }       
+            else if (randomNumber == 8){
+                return "https://www.youtube.com/watch?v=s9rwn0oGIj8";
+            }
+            else if (randomNumber == 9){
+                return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
+            }
+            else {
+                return "https://www.youtube.com/watch?v=s11yIPcKyQg";
+            }        
         }
         else if (message.toLowerCase().includes("trump")){
             return  "Orange Man Bad";
@@ -42,7 +63,7 @@ module.exports = {
         else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt")){
             return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
         }
-        else{
+        else {
             return null;
         }
     }
