@@ -61,7 +61,7 @@ module.exports = {
             return "Translator's Note: Keikaku means plan";
             
         }
-        else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt")){
+        else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt") || message.toLowerCase().includes("bitch")){
             return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
         }
         
