@@ -93,12 +93,12 @@ module.exports = {
             var based = 0;
             if (message.toLowerCase().includes("EmperorDet"){
                 based = 1;
-            }
-            if based == 1{
-                return "ACCESS GRANTED, WELCOME SIR";
-            }
-            else{
-                return "ERROR, PLEASE TRY AGAIN";
+                if based == 1{
+                    return "ACCESS GRANTED, WELCOME SIR";
+                    else{
+                        return "ERROR, PLEASE TRY AGAIN";
+                    }
+                }
             }
         }
         
