@@ -37,6 +37,10 @@ module.exports = {
             }
         }
         
+        else if (message.toLowerCase().includes("borf")){
+            return "https://www.youtube.com/watch?v=X25P5gsB-2I";
+        }
+        
         else if (message.toLowerCase().includes("trump")){
             return  "Orange Man Bad";
         }
