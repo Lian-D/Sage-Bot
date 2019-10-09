@@ -97,6 +97,10 @@ module.exports = {
             return "Help yourself, fag";
         }
         
+        else if (message == "benis"){
+            return "in bagina :DDDDD";
+        }
+        
         // else if (message.toLowerCase() == "chris is a faggot"){
         //     return "No, YOU'RE a faggot";
         // }
