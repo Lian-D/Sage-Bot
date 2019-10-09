@@ -90,7 +90,16 @@ module.exports = {
         }
         
         else if (message.toLowerCase().includes("/op")){
-            return "ADMIN PERMISSIONS GRANTED, WELCOME SIR";
+            var based = 0;
+            if (message.toLowerCase().includes("EmperorDet"){
+                based = 1;
+            }
+            if based == 1{
+                return "ACCESS GRANTED, WELCOME SIR";
+            }
+            else{
+                return "ERROR, PLEASE TRY AGAIN";
+            }
         }
         
         else if (message == "!help"){
