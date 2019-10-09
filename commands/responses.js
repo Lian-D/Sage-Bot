@@ -89,9 +89,9 @@ module.exports = {
             return "https://gondola.stravers.net/random-raw";
         }
         
-        else if (message.toLowerCase().includes("op") && (message.toLowerCase().includes("EmperorDet")){
-            return "ACCESS GRANTED, WELCOME SIR";
-        }
+        //else if (message.toLowerCase().includes("op") && (message.toLowerCase().includes("EmperorDet")){
+        //    return "ACCESS GRANTED, WELCOME SIR";
+        //}
         
         else if (message == "!help"){
             return "Help yourself, fag";
