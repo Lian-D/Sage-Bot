@@ -63,6 +63,11 @@ module.exports = {
         else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt")){
             return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
         }
+        
+        else if (message.toLowerCase().includes("nigger")){
+            return "HOL UP";
+            
+        }
         else {
             return null;
         }
