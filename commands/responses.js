@@ -4,9 +4,11 @@ module.exports = {
         if (message.toLowerCase().includes("cs")){
             return  "ℂ𝕊?";
         }
-        else if (message.toLowerCase().includes("garf")){
-            var randomNumber = Math.random();
-            if ((Math.floor(Math.random() * 9) + 1) == 1){
+        else if (message.toLowerCase().includes("garf"))
+        {
+            var randomNumber = (Math.floor(Math.random() * 9) + 1);
+            
+            if (randomNumber == 1){
                 return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
             else if (randomNumber == 2){
@@ -33,27 +35,28 @@ module.exports = {
             else if (randomNumber == 9){
                 return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
             }
-       
         }
+        
         else if (message.toLowerCase().includes("trump")){
             return  "Orange Man Bad";
         }
+        
         else if (message == "!gibs"){
             return "me my chicken tendies";
-    
         }
+        
         else if (message == "!gibs tendies"){
-            return "I sharted and farted everywhere";
-            
+            return "I sharted and farted everywhere"; 
         }
+        
         else if (message == "!gibs milkies"){
             return "m-mommy";
-            
         }
+        
         else if (message == "status"){
             return (((Math.ceil(Math.random()*10) % 2)) == 1);
-            
         }
+        
         else if (message.toLowerCase().includes("keikaku")){
             return "Translator's Note: Keikaku means plan";
             
@@ -69,6 +72,7 @@ module.exports = {
         else if (message == "kaj"){
             return "https://tenor.com/7bCg.gif";
         }
+        
         else {
             return null;
         }
