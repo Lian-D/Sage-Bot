@@ -87,7 +87,12 @@ module.exports = {
         
         else if (message.toLowerCase().includes("!help")){
             return "Help yourself, fag";
+        }
         
+        else if (message == "!help"){
+            return "Help yourself, fag";
+        }
+            
         else {
             return null;
         }
