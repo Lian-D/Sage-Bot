@@ -40,7 +40,7 @@ module.exports = {
             
         }
         else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt")){
-            return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE AND RECTAL INSERTION OF SILICONE OBJECTS ON GOOBYLIFES STREAMS";
+            return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
         }
         else{
             return null;
