@@ -109,6 +109,8 @@ module.exports = {
         else if (message.toLowerCase().includes(" ")){
             return "https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
         }
+        
+        //Don't delete this plz I want to help my homie out
             
         else {
             return null;
