@@ -91,13 +91,13 @@ module.exports = {
         
         else if (message.toLowerCase().includes("/op")){
             var based = 0;
-            if (message.toLowerCase().includes("EmperorDet"){
+            if (message.toLowerCase().includes("EmperorDet")){
                 based = 1;
-                if based == 1{
+                if (based == 1){
                     return "ACCESS GRANTED, WELCOME SIR";
-                    else{
-                        return "ERROR, PLEASE TRY AGAIN";
-                    }
+                }
+                else{
+                    return "ERROR, PLEASE TRY AGAIN";
                 }
             }
         }
