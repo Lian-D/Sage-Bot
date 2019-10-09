@@ -69,7 +69,7 @@ module.exports = {
             return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
         }
         
-        else if ( message.toLowerCase().includes("frick") || message.toLowerCase().includes("shiet") || message.toLowerCase().includes("damn") || message.toLowerCase().includes("fick") || message.toLowerCase().includes("biatch") || message.toLowerCase().includes("shet")){
+        else if ( message.toLowerCase().includes("frick") || message.toLowerCase().includes("shiet") || message.toLowerCase().includes("damn") || message.toLowerCase().includes("fick") || message.toLowerCase().includes("biatch") || message.toLowerCase().includes("shet") || message.toLowerCase().includes("heck")){
             return "YOU ARE SPARED THIS TIME, CITIZEN.";
         }
         
