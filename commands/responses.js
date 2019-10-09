@@ -85,6 +85,9 @@ module.exports = {
             return "https://gondola.stravers.net/random-raw";
         }
         
+        else if (message.toLowerCase().includes("!help")){
+            return "Help yourself, fag";
+        
         else {
             return null;
         }
