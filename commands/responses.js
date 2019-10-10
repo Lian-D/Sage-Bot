@@ -6,7 +6,7 @@ module.exports = {
         }
         else if (message.toLowerCase().includes("garf"))
         {
-            var randomNumber = (Math.floor(Math.random() * 9) + 1);
+            var randomNumber = (Math.floor(Math.random() * 10) + 1);
             
             if (randomNumber == 1){
                 return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
@@ -34,6 +34,9 @@ module.exports = {
             }
             else if (randomNumber == 9){
                 return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
+            }
+            else if (randomNumber == 10){
+                return "https://www.youtube.com/watch?v=qJTF0ogoHpQ";
             }
         }
         
