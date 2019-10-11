@@ -21,6 +21,10 @@ client.on('message', message => {
     if (message.content == "epic"){
         message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
     }
+    if (message.content == "gondola"){
+        message.channel.send("Enjoy the ride https://gondola.stravers.net/random-raw", { files: ["./resources/gondola.webm"] });
+    }
+    
     var response = responses.response(message.content);
     if (response != null){
         message.channel.send(response);
