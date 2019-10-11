@@ -9,34 +9,34 @@ module.exports = {
             var randomNumber = (Math.floor(Math.random() * 10) + 1);
             
             if (randomNumber == 1){
-                return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
+                return "Get up, gayfred. I won't harm a man who is defenceless https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
             else if (randomNumber == 2){
-                return "https://www.youtube.com/watch?v=2vWFEylvELI";
+                return "It cannot be! Newspper sword https://www.youtube.com/watch?v=2vWFEylvELI";
             }
             else if (randomNumber == 3){
-                return "https://www.youtube.com/watch?v=_4e3wV2b3P0";
+                return "Not everyoen is evil, Naermo. Some are just misguide. https://www.youtube.com/watch?v=_4e3wV2b3P0";
             }
             else if (randomNumber == 4){
-                return "https://www.youtube.com/watch?v=dQPvhRlcmzs";
+                return "You think you can beat me, marmalade? I'll cut you to rubble! https://www.youtube.com/watch?v=dQPvhRlcmzs";
             }
             else if (randomNumber == 5){
-                return "https://www.youtube.com/watch?v=yfN-Zhyw-Bg";
+                return "Lasagna breath https://www.youtube.com/watch?v=yfN-Zhyw-Bg";
             }
             else if (randomNumber == 6){
-                return "https://www.youtube.com/watch?v=cf3QUyEUI-s";
+                return "Well, miracleduck, it seems you lost https://www.youtube.com/watch?v=cf3QUyEUI-s";
             }
             else if (randomNumber == 7){
-                return "https://www.youtube.com/watch?v=gRVLGbqsKAw";
+                return "The Sunday funnies belong to no man https://www.youtube.com/watch?v=gRVLGbqsKAw";
             }       
             else if (randomNumber == 8){
-                return "https://www.youtube.com/watch?v=s9rwn0oGIj8";
+                return "I cannot allow you to clam another life, gayfrindle https://www.youtube.com/watch?v=s9rwn0oGIj8";
             }
             else if (randomNumber == 9){
-                return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
+                return "Then give me all you'vee got John Aldrin, cause I won't stop https://www.youtube.com/watch?v=ss6hwhyFwdM";
             }
             else if (randomNumber == 10){
-                return "https://www.youtube.com/watch?v=qJTF0ogoHpQ";
+                return "It's over, Garfellini, I won't waste Antober Seventh https://www.youtube.com/watch?v=qJTF0ogoHpQ";
             }
         }
         
