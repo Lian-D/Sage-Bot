@@ -36,7 +36,7 @@ module.exports = {
                 return "Then give me all you'vee got John Aldrin, cause I won't stop https://www.youtube.com/watch?v=ss6hwhyFwdM";
             }
             else if (randomNumber == 10){
-                return "It's over, Garfellini, I won't waste Antober Seventh https://www.youtube.com/watch?v=qJTF0ogoHpQ";
+                return "It's over, Garrfellini, I won't waste Antober Seventh https://www.youtube.com/watch?v=qJTF0ogoHpQ";
             }
         }
         
