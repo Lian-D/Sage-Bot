@@ -104,15 +104,13 @@ module.exports = {
             return "in bagina :DDDDD";
         }
         
-        // else if (message.toLowerCase() == "chris is a faggot"){
-        //     return "No, YOU'RE a faggot";
-        // }
+        else if (message.toLowerCase() == "chris is a faggot"){
+            return "No, YOU'RE a faggot";
+        }
         
-        // else if (message.toLowerCase().includes(" ")){
-        //     return "https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
-        // }
-        
-        //Don't delete this plz I want to help my homie out
+        else if (message.toLowerCase().includes("donate")){
+            return "Help my boy out https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
+        }
             
         else {
             return null;
