@@ -18,6 +18,9 @@ client.on('message', message => {
     if (message.content == "kaj"){
         message.channel.send(" ", { files: ["./resources/tenor.gif"] });
     }
+    if (message.content == "epic"){
+        message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
+    }
     var response = responses.response(message.content);
     if (response != null){
         message.channel.send(response);
