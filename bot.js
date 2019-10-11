@@ -22,7 +22,13 @@ client.on('message', message => {
         message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
     }
     if (message.content == "gondola"){
-        message.channel.send("Enjoy the ride https://gondola.stravers.net/random-raw", { files: ["./resources/gondola.webm"] });
+        var randomNumber2 = (Math.floor(Math.random() * 2) + 1);
+        if (randomNumber2 == 1){
+            message.channel.send("Enjoy the ride https://gondola.stravers.net/random-raw", { files: ["./resources/gondola.webm"] });
+        }
+        else {
+            message.channel.send("Enjoy the ride https://gondola.stravers.net/random-raw", { files: ["./resources/gondola2.webm"] });
+        }
     }
     
     var response = responses.response(message.content);
