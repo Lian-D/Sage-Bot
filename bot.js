@@ -18,6 +18,19 @@ client.on('message', message => {
     if (message.content == "kaj"){
         message.channel.send(" ", { files: ["./resources/tenor.gif"] });
     }
+    if (message.content == "epic"){
+        message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
+    }
+    if (message.content == "gondola"){
+        var randomNumber2 = (Math.floor(Math.random() * 2) + 1);
+        if (randomNumber2 == 1){
+            message.channel.send("Enjoy the ride https://gondola.stravers.net/random-raw", { files: ["./resources/gondola.webm"] });
+        }
+        else {
+            message.channel.send("Enjoy the ride https://gondola.stravers.net/random-raw", { files: ["./resources/gondola2.webm"] });
+        }
+    }
+    
     var response = responses.response(message.content);
     if (response != null){
         message.channel.send(response);

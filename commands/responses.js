@@ -6,34 +6,37 @@ module.exports = {
         }
         else if (message.toLowerCase().includes("garf"))
         {
-            var randomNumber = (Math.floor(Math.random() * 9) + 1);
+            var randomNumber = (Math.floor(Math.random() * 10) + 1);
             
             if (randomNumber == 1){
-                return "https://www.youtube.com/watch?v=OGbhJjXl9Rk";
+                return "Get up, Gayfred. I won't harm a man who is defenceless https://www.youtube.com/watch?v=OGbhJjXl9Rk";
             }
             else if (randomNumber == 2){
-                return "https://www.youtube.com/watch?v=2vWFEylvELI";
+                return "It cannot be! Newspper sword https://www.youtube.com/watch?v=2vWFEylvELI";
             }
             else if (randomNumber == 3){
-                return "https://www.youtube.com/watch?v=_4e3wV2b3P0";
+                return "Not everyoen is evil, Naermo. Some are just misguide. https://www.youtube.com/watch?v=_4e3wV2b3P0";
             }
             else if (randomNumber == 4){
-                return "https://www.youtube.com/watch?v=dQPvhRlcmzs";
+                return "You think you can beat me, Marmalade? I'll cut you to rubble! https://www.youtube.com/watch?v=dQPvhRlcmzs";
             }
             else if (randomNumber == 5){
-                return "https://www.youtube.com/watch?v=yfN-Zhyw-Bg";
+                return "Lasagna breath https://www.youtube.com/watch?v=yfN-Zhyw-Bg";
             }
             else if (randomNumber == 6){
-                return "https://www.youtube.com/watch?v=cf3QUyEUI-s";
+                return "Well, Miracleduck, it seems you lost https://www.youtube.com/watch?v=cf3QUyEUI-s";
             }
             else if (randomNumber == 7){
-                return "https://www.youtube.com/watch?v=gRVLGbqsKAw";
+                return "The Sunday funnies belong to no man https://www.youtube.com/watch?v=gRVLGbqsKAw";
             }       
             else if (randomNumber == 8){
-                return "https://www.youtube.com/watch?v=s9rwn0oGIj8";
+                return "I cannot allow you to clam another life, Gayfrindle https://www.youtube.com/watch?v=s9rwn0oGIj8";
             }
             else if (randomNumber == 9){
-                return "https://www.youtube.com/watch?v=ss6hwhyFwdM";
+                return "Then give me all you'vee got John Aldrin, cause I won't stop https://www.youtube.com/watch?v=ss6hwhyFwdM";
+            }
+            else if (randomNumber == 10){
+                return "It's over, Garrfellini, I won't waste Antober Seventh https://www.youtube.com/watch?v=qJTF0ogoHpQ";
             }
         }
         
@@ -65,13 +68,13 @@ module.exports = {
             return "Translator's Note: Keikaku means plan";
             
         }
-        else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt") || message.toLowerCase().includes("bitch")){
-            return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
-        }
+        // else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt") || message.toLowerCase().includes("bitch")){
+        //     return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
+        // }
         
-        else if ( message.toLowerCase().includes("frick") || message.toLowerCase().includes("shiet") || message.toLowerCase().includes("damn") || message.toLowerCase().includes("fick") || message.toLowerCase().includes("biatch") || message.toLowerCase().includes("shet") || message.toLowerCase().includes("heck")){
-            return "YOU ARE SPARED THIS TIME, CITIZEN.";
-        }
+        // else if ( message.toLowerCase().includes("frick") || message.toLowerCase().includes("shiet") || message.toLowerCase().includes("damn") || message.toLowerCase().includes("fick") || message.toLowerCase().includes("biatch") || message.toLowerCase().includes("shet") || message.toLowerCase().includes("heck")){
+        //     return "YOU ARE SPARED THIS TIME, CITIZEN.";
+        // }
         
         else if (message.toLowerCase().includes("nigger")){
             return "HOL UP";
@@ -85,32 +88,25 @@ module.exports = {
             return "GOTTEM HAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHHAHAHAH HILARIOUS HAHAHAHAHAHAHAHAHAHAHAHHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHHAHAHAHAHAHAHAHHAHAHAAHHAHAHAHAHAHHAHAHAHAHHA";
         }
         
-        else if (message == "gondola"){
-            return "https://gondola.stravers.net/random-raw";
-        }
-        
-        else if (message.toLowerCase().includes("op")){
-            if (message.toLowerCase().includes("EmperorDet")){
-                return "ACCESS GRANTED, WELCOME SIR";
-            }
-            else {
-                return "ACCESS DENIED";
-            }
+        else if (message.toLowerCase().includes("420")){
+            return "DUDE WEED LMAO";
         }
         
         else if (message == "!help"){
             return "Help yourself, fag";
         }
         
-        else if (message == "Chris is a faggot"){
+        else if (message == "benis"){
+            return "in bagina :DDDDD";
+        }
+        
+        else if (message.toLowerCase() == "chris is a faggot"){
             return "No, YOU'RE a faggot";
         }
         
-        else if (message.toLowerCase().includes(" ")){
-            return "https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
+        else if (message.toLowerCase().includes("donate")){
+            return "Help my boy out https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
         }
-        
-        //Don't delete this plz I want to help my homie out
             
         else {
             return null;
