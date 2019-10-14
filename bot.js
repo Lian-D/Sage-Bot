@@ -19,14 +19,12 @@ client.on('message', message => {
         message.channel.send(" ", { files: ["./resources/tenor.gif"] });
     }
     if (message.content == "epic"){
-        message.channel.send("Le epic wins", { files: ["./resources/based.gif"] });
+        message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
     }
     if (message.content == "Fortnite"){
         message.channel.send(" ", { files: ["./resources/27lrwk.jpg"] });
     }
-    if (message.content == "walter"){
-        message.channel.send("libtard destroyed", { files: ["./resources/libtard.png"] });
-    }
+
     if (message.content == "gondola"){
         var randomNumber2 = (Math.floor(Math.random() * 2) + 1);
         if (randomNumber2 == 1){
