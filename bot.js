@@ -18,8 +18,8 @@ client.on('message', message => {
     if (message.content == "kaj"){
         message.channel.send(" ", { files: ["./resources/tenor.gif"] });
     }
-    if (message.content == "epic"){
-        message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
+    if (message.content == "based"){
+        message.channel.send("YEEEETTTTT", { files: ["./resources/based.gif"] });
     }
     if (message.content == "Fortnite"){
         message.channel.send(" ", { files: ["./resources/27lrwk.jpg"] });
