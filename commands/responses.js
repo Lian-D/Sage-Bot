@@ -93,7 +93,7 @@ module.exports = {
         }
         
         else if (message.toLowerCase().includes("epic")){
-            return "le epic";
+            return "based";
         }
         
         else if (message == "!help"){
