@@ -18,12 +18,7 @@ client.on('message', message => {
     if (message.content == "kaj"){
         message.channel.send(" ", { files: ["./resources/tenor.gif"] });
     }
-    if (message.content == "epic"){
-        message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
-    }
-    if (message.content == "Fortnite"){
-        message.channel.send(" ", { files: ["./resources/27lrwk.jpg"] });
-    }
+
 
     if (message.content == "gondola"){
         var randomNumber2 = (Math.floor(Math.random() * 2) + 1);
