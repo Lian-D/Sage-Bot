@@ -92,10 +92,6 @@ module.exports = {
             return "DUDE WEED LMAO";
         }
         
-        else if (message.toLowerCase().includes("epic")){
-            return "based";
-        }
-        
         else if (message == "!help"){
             return "Help yourself, fag";
         }
