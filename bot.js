@@ -22,15 +22,15 @@ client.on('message', message => {
         message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
     }
     
-    ///    if (message.content == "epic"){
-    ///    message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
-    ///}
-    ///if (message.content == "Fortnite"){
-    ///    message.channel.send(" ", { files: ["./resources/27lrwk.jpg"] });
-    ///}
-    ///    if (message.content == "walter"){
-    ///    message.channel.send("libtard destroyed", { files: ["./resources/libtard.png"] });
-    ///}
+        if (message.content == "epic"){
+        message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
+    }
+    if (message.content == "Fortnite"){
+        message.channel.send(" ", { files: ["./resources/27lrwk.jpg"] });
+    }
+        if (message.content == "walter"){
+        message.channel.send("libtard destroyed", { files: ["./resources/libtard.png"] });
+    }
 
     if (message.content == "Fortnite"){
         message.channel.send(" ", { files: ["./resources/27lrwk.jpg"] });
