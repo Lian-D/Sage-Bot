@@ -47,10 +47,10 @@ client.on('message', message => {
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./resources/BLARTMINION.png"] });
         }
         if (randomNumber3 == 2){
-            message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./resources/MINION LOVER1.5.png"] });
+            message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./resources/MINION LOVER1.png"] });
         }
         if (randomNumber3 == 3){
-            message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./resources/MINION LOVER2.5.png"] });
+            message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./resources/MINION LOVER2.png"] });
         }        
         if (randomNumber3 == 4){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./resources/MINION LOVER3.png"] });
