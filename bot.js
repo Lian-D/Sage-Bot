@@ -41,33 +41,33 @@ client.on('message', message => {
         }
     }
     else if (message.content == "minion"){
-        var randomNumber2 = (Math.floor(Math.random() * 9) + 1);
+        var randomNumber3 = (Math.floor(Math.random() * 9) + 1);
         
-        if (randomNumber2 == 1){
+        if (randomNumber3 == 1){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./BLARTMINION.png"] });
         }
-        if (randomNumber2 == 2){
+        if (randomNumber3 == 2){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./MINION LOVER1.5.png"] });
         }
-        if (randomNumber2 == 3){
+        if (randomNumber3 == 3){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./MINION LOVER2.5.png"] });
         }        
-        if (randomNumber2 == 4){
+        if (randomNumber3 == 4){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./MINION LOVER3.png"] });
         }
-        if (randomNumber2 == 5){
+        if (randomNumber3 == 5){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./MINION SNIPER.png"] });
         }
-        if (randomNumber2 == 6){
+        if (randomNumber3 == 6){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./RED MINION.png"] });
         }
-        if (randomNumber2 == 7){
+        if (randomNumber3 == 7){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./SCHINDLERS MINION.png"] });
         }
-        if (randomNumber2 == 8){
+        if (randomNumber3 == 8){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./minion_guitar.png"] });
         }
-        if (randomNumber2 == 9){
+        if (randomNumber3 == 9){
             message.channel.send("GOD I FUCKING LOVE MINIONS", { files: ["./whydoeshewearthemask.png"] });
         }        
         
