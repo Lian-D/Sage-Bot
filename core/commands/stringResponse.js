@@ -65,14 +65,6 @@ module.exports = {
             return "Translator's Note: Keikaku means plan";
             
         }
-        // else if ( message.toLowerCase().includes("fuck") || message.toLowerCase().includes("shit") || message.toLowerCase().includes("cunt") || message.toLowerCase().includes("bitch")){
-        //     return "SWEARING OF ANY KIND IS WRONGTHINK AND PROHIBITED. REPEATED OFFENCES WILL RESULT IN FORCED ESTROGEN INTAKE";
-        // }
-        
-        // else if ( message.toLowerCase().includes("frick") || message.toLowerCase().includes("shiet") || message.toLowerCase().includes("damn") || message.toLowerCase().includes("fick") || message.toLowerCase().includes("biatch") || message.toLowerCase().includes("shet") || message.toLowerCase().includes("heck")){
-        //     return "YOU ARE SPARED THIS TIME, CITIZEN.";
-        // }
-        
         else if (message.toLowerCase().includes("nigger")){
             return "HOL UP";
         }
@@ -101,11 +93,17 @@ module.exports = {
         //     return "No, YOU'RE a faggot";
         // }
         
+<<<<<<< Updated upstream:commands/responses.js
         // else if (message.toLowerCase().includes(" ")){
         //     return "https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
         // }
         
         //Don't delete this plz I want to help my homie out
+=======
+        else if (message.toLowerCase().includes("donate")){
+            return "Help my boy out https://www.gofundme.com/f/help-my-man-wonchan-get-an-ethernet-cable";
+        }
+>>>>>>> Stashed changes:core/commands/stringResponse.js
             
         else {
             return null;
