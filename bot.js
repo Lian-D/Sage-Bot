@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-// const RS = require('./core/responsesHandler.js');
+const responsesHandler = require('./core/responsesHandler.js');
 
 const client = new Discord.Client();
 
@@ -10,7 +10,7 @@ client.on('ready', () => {
 
  
 client.on('message', message => {
-    message.channel.send("hi");
+    responsesHandler.response(client,message);
 });
 
 // THIS  MUST  BE  THIS  WAY
