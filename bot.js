@@ -1,17 +1,18 @@
 const Discord = require('discord.js');
-const RS = require('./core/responsesHandler.js');
-
 const client = new Discord.Client();
+const responsesHandler = require('./core/responsesHandler.js');
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setPresence({ game: { name: 'I\'m sorry Jon', type: 0 } });
+    client.user.setPresence({ game: { name: 'Wikipedia', type: 0 } });
 });
 
  
 client.on('message', message => {
-    //This is how responses are handled generally
-    RS.response(message);
+    //Ignore itself and other bots
+    if(message.author.bot) return;
+    // message.channel.send("hi");
+    responsesHandler.response(client,message);
 });
 
 // THIS  MUST  BE  THIS  WAY
