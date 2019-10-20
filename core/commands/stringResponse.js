@@ -1,18 +1,14 @@
 module.exports = {
     keywords: ["cs", "keikaku", "benis"],
     response: function(message){
-        if (message.toLowerCase().includes("cs")){
-            setResponseObj("CS?");
+        if (message.content.toLowerCase().includes("cs")){
+            message.channel.send("cs?");
         }  
-        else if (message.toLowerCase().includes("keikaku")){
-            setResponseObj("Translator's Note Keikaku means plan");
+        else if (message.content.toLowerCase().includes("keikaku")){
+            message.channel.send("Translator's Note Keikaku means plan");
         }    
-        
-        else if (message == "benis"){
-            setResponseObj("IN BAGINA :DDDDD");
+        else if (message.content == "benis"){
+            message.channel.send("IN BAGINA :DDDDD");
         }   
-        else {
-            return null;
-        }
     }
 };
