@@ -10,9 +10,7 @@ client.on('ready', () => {
 
  
 client.on('message', message => {
-    message.channel.send(JSON.stringify(client));
-    message.channel.send(JSON.stringify(message));
-
+    message.channel.send("hi");
     // responsesHandler.response(client,message);
 });
 
