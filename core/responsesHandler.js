@@ -5,7 +5,8 @@ module.exports = {
         var imageResponse = require('./commands/imageResponse.js');
         var stringResponse = require('./commands/stringResponse.js');
 
-        message.channel.send("hi2");
-        garfResponse.response(message);
+        if (garfResponse.keywords.includes(message.content.toLowerCase())){
+            garfResponse.response(message);
+        }
     }
 };

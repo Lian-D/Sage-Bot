@@ -6,13 +6,18 @@
 module.exports = {
     keywords: ["dab", "kaj", "epic", "our lord and savior"],
     response: function(message){
-        switch (message){
+        
+        function sendimage(text, url){
+            message.channel.send(text, { files: [url] })
+        }
+
+        switch (message.content.toLowerCase()){
             case "dab": 
-                setResponse("", "./resources/memes/dab2.png");
+                sendimage("","./resources/memes/dab2.png");
                 break;
             
             case "kaj": 
-                setResponse("Kaj...", "./resources/memes/kaj.gif");
+                sendimage("","./resources/memes/kaj.png");
                 break;
             
             case "epic": 
