@@ -2,11 +2,12 @@ module.exports = {
     keywords: ["who is", "what is"],
     response: function(message, search) {
         var Wiki = require('wikijs');
-        
+
 		var query = search;
 		if(!query) {
 			return;
-		}
+        }
+        
 		new Wiki().search(query,1).then(function(data) {
 			new Wiki().page(data.results[0]).then(function(page) {
 				page.summary().then(function(summary) {

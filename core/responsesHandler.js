@@ -21,8 +21,9 @@ module.exports = {
             stockResponse.response(message,suffix);
         }
         else if (message.content.includes(wikiResponse.keywords[0])|| message.content.includes(wikiResponse.keywords[1])){
-            var query = message.content.replace (wikiResponse.keywords[0],"").content.replace (wikiResponse.keywords[0],"");
-            wikiResponse.response(message,query)
+
+            var query = message.content.replace (wikiResponse.keywords[0],"").content.replace (wikiResponse.keywords[1],"");
+            wikiResponse.response(message,query);
         }
     }
 };
