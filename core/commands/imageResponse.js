@@ -5,17 +5,6 @@
 */
 module.exports = {
     response: function(message){
-        var responseObj = {
-            responseType: "imageMeme",
-            context: null,
-            imgSource: null
-        };
-
-        function setResponse(msg, imagesrc){
-            responseObj.context =  msg;
-            responseObj.imgSource = imagesrc;
-        };
-
         switch (message){
             case "dab": 
                 setResponse("", "./resources/memes/dab2.png");
@@ -34,9 +23,7 @@ module.exports = {
                 break;
             
             default:
-                return null;
                 break;
         }
-        return reponseObj;
     }
 }
