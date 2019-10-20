@@ -4,20 +4,24 @@
 * @returns returns image objs that are to be turned into a meme
 */
 module.exports = {
-    keywords: ["dab", "kaj", "epic", "our lord and savior"],
+    keywords: ["dab", "kaj", "epic", "our lord and savior", "minion"],
     response: function(message){
         
         function sendimage(text, url){
             message.channel.send(text, { files: [url] })
         }
 
+        function sendMinion(url){
+
+        }
+
         switch (message.content.toLowerCase()){
             case "dab": 
-                sendimage("","resources/memes/dab.PNG");
+                sendimage("","./resources/memes/dab2.png");
                 break;
             
             case "kaj": 
-                sendimage("","resources/memes/kaj.png");
+                sendimage("","./resources/memes/kaj.gif");
                 break;
             
             case "epic": 

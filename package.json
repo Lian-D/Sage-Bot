@@ -1,10 +1,10 @@
 {
 
-    "name": "amadeusdiscord",
+    "name": "SageDiscordBot",
   
-    "description": "I am a funny meme",
+    "description": "Easy Boilerplate for Discord Bot",
   
-    "version": "0.0.1",
+    "version": "0.7.2",
   
     "main": "bot.js",
   
