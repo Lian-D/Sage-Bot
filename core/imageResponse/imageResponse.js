@@ -20,9 +20,7 @@ module.exports = {
         }
         else if (message.content.includes ("minion")){
             var randomIndex = (Math.floor(Math.random() * 8));
-            message.channel.send("**GOD I LOVE MINIONS**", { files: ["./core/imageResponse/resources/minion/minion"+randomIndex]});
+            message.channel.send("**GOD I LOVE MINIONS**", { files: ["./core/imageResponse/resources/minion/minion"+randomIndex+".png"]});
         }
-
-
     }
 }
