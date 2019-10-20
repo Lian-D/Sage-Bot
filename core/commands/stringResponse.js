@@ -1,3 +1,7 @@
+/** @Author Chris Wang, refactored by Lian Duan
+* @params string message
+* @returns a message
+*/
 module.exports = {
     keywords: ["cs", "keikaku", "benis"],
     response: function(message){
