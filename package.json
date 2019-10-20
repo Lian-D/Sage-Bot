@@ -20,8 +20,9 @@
   
       "request": "2.81.0",
       
-      "mysql": ">=2.5.0"
-  
+      "mysql": ">=2.5.0",
+
+      "yahoo-finance": "0.2.x"
     }
   
   }

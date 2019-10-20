@@ -4,6 +4,7 @@ module.exports = {
         var garfResponse = require('./commands/garf.js');
         var imageResponse = require('./imageResponse/imageResponse.js');
         var stringResponse = require('./commands/stringResponse.js');
+        var stockResponse = require('./stocks/stockFetcher.js');
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("garf")){
             garfResponse.response(message);
@@ -13,6 +14,10 @@ module.exports = {
         }
         else if (stringResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("cs")){
            stringResponse.response(message);
+        }
+        else if (message.content.includes(stockResponse.keywords[0])){
+            var suffix = message.content.replace('stock ','');
+            stockResponse.response(message,suffix);
         }
     }
 };
