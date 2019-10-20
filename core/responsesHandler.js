@@ -20,10 +20,10 @@ module.exports = {
             var suffix = message.content.replace('stock ','');
             stockResponse.response(message,suffix);
         }
-        else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){
-            var query = message.content.replace (wikiResponse.keywords[0],"");
-            query = message.content.replace (wikiResponse.keywords[1],"");
-            wikiResponse.response(message, query);
-        }
+        // else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){
+        //     var query = message.content.replace (wikiResponse.keywords[0],"");
+        //     query = message.content.replace (wikiResponse.keywords[1],"");
+        //     wikiResponse.response(message, query);
+        // }
     }
 };
