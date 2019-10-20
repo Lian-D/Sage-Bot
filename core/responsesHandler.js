@@ -22,7 +22,7 @@ module.exports = {
         }
         else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){
             var query = message.content.replace (wikiResponse.keywords[0],"");
-            query = content.replace (wikiResponse.keywords[1],"");
+            query = message.content.replace (wikiResponse.keywords[1],"");
             wikiResponse.response(message, query);
         }
     }
