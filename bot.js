@@ -12,8 +12,8 @@ client.on('ready', () => {
 client.on('message', message => {
     message.channel.send(JSON.stringify(client));
     message.channel.send(JSON.stringify(message));
-    
-    responsesHandler.response(client,message);
+
+    // responsesHandler.response(client,message);
 });
 
 // THIS  MUST  BE  THIS  WAY
