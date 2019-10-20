@@ -12,7 +12,8 @@ client.on('ready', () => {
 client.on('message', message => {
     //This is how responses are handled generally
     console.log("recieved message");
-    RS.response(message);
+    message.channel.send("hi");
+    // RS.response(message);
 });
 
 // THIS  MUST  BE  THIS  WAY
