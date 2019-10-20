@@ -32,7 +32,7 @@ module.exports = {
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
 
     var response = garfComments[randomIndex1] + " " + garfLinks[randomIndex2];
-    
-    message.channel.send(reponse);
+
+    message.channel.send(response);
     }
 }
