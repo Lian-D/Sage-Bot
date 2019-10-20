@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client;
 
 module.exports = {
     response: function(bot, message){
+        client = bot;
         message.send("hi2");
     }
 };

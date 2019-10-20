@@ -4,13 +4,14 @@ const responsesHandler = require('./core/placeholder.js');
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setPresence({ game: { name: 'undergoing testing', type: 0 } });
+    client.user.setPresence({ game: { name: 'undergoing testing2', type: 0 } });
 });
 
  
 client.on('message', message => {
     //Ignore itself and other bots
     if(message.author.bot) return;
+
     message.channel.send("hi");
     responsesHandler.response(client,message);
 });
