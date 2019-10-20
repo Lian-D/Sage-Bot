@@ -1,6 +1,8 @@
 module.exports = {
     keywords: ["who is", "what is"],
     response: function(message, search) {
+        var Wiki = require('wikijs');
+        
 		var query = search;
 		if(!query) {
 			return;
