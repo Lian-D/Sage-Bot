@@ -2,9 +2,9 @@ module.exports = {
     keywords: ["stock"],
     response: function(message, suffix){
         var yahooFinance = require('yahoo-finance');
-        yahooFinance.snapshot({
+        yahooFinance.quote({
             symbol: suffix,
-            fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+            modules: [ 'price', 'summaryDetail' ],
           }, function (error, snapshot) {
               if(error){
                     message.channel.send("couldn't get stock: " + error);
