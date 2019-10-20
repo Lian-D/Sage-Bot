@@ -12,28 +12,20 @@ module.exports = {
         }
 
         function sendMinion(url){
-
+            var randomIndex = (Math.floor(Math.random() * 8));
         }
 
-        switch (message.content.toLowerCase()){
-            case "dab": 
-                sendimage("","./resources/memes/dab2.png");
-                break;
-            
-            case "kaj": 
-                sendimage("","./resources/memes/kaj.gif");
-                break;
-            
-            case "epic": 
-                setResponse("LE EPIC WIN", "./resources/memes/epic.gif");
-                break;
-            
-            case "our lord and savior": 
-                setResponse("RUSSEL", "./resources/memes/lord.png");
-                break;
-            
-            default:
-                break;
+        if (message.content == "dab"){
+           sendimage(" ", "./resources/dab2.png");
+        }
+        else if (message.content == "our lord and savior"){
+            sendimage("RUSSEL", "./resources/lord.png");
+        }
+        else if (message.content == "kaj"){
+            sendimage(" ", "./resources/kaj.gif");
+        }
+        else if (message.content == "epic"){
+            sendimage("Le epic win", "./resources/based.gif");
         }
     }
 }
