@@ -22,7 +22,9 @@
       
       "mysql": ">=2.5.0",
 
-      "yahoo-finance": "0.3.x"
+      "yahoo-finance": "0.3.x",
+
+      "wikijs": ">=0.1.x"
     }
   
   }
