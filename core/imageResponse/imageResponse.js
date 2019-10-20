@@ -8,7 +8,7 @@ module.exports = {
     response: function(message){
         
         function sendimage(text, url){
-            message.channel.send(text, { files: [url] })
+            message.channel.send(text, { files: [url] });
         }
 
         function sendMinion(url){
