@@ -5,11 +5,11 @@ module.exports = {
         var imageResponse = require('./imageResponse/imageResponse.js');
         var stringResponse = require('./commands/stringResponse.js');
 
-        if (garfResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().contains("garf")){
+        if (garfResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("garf")){
             garfResponse.response(message);
         }
-        else if (imageResponse.keywords.includes(message.content.toLowerCase())){
-            imageResponse.response(message);
-        }
+        // else if (imageResponse.keywords.includes(message.content.toLowerCase())){
+        //     imageResponse.response(message);
+        // }
     }
 };
