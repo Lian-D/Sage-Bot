@@ -13,11 +13,11 @@ module.exports = {
 
         switch (message.content.toLowerCase()){
             case "dab": 
-                sendimage("","./resources/memes/dab2.png");
+                sendimage("","resources/memes/dab.PNG");
                 break;
             
             case "kaj": 
-                sendimage("","./resources/memes/kaj.png");
+                sendimage("","resources/memes/kaj.png");
                 break;
             
             case "epic": 

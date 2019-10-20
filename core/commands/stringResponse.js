@@ -1,4 +1,5 @@
 module.exports = {
+    keywords: ["cs", "keikaku", "benis"],
     response: function(message){
         if (message.toLowerCase().includes("cs")){
             setResponseObj("CS?");
