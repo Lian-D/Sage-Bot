@@ -24,7 +24,7 @@
 
       "yahoo-finance": "0.3.x",
 
-      "wikijs": ">=0.1.x"
+      "wikijs": "0.1.x"
     }
   
   }
