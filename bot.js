@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
-const responsesHandler = require('./core/responsesHandler.js');
-
 const client = new Discord.Client();
+const responsesHandler = require('./core/placeholder.js');
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -12,9 +11,8 @@ client.on('ready', () => {
 client.on('message', message => {
     //Ignore itself and other bots
     if(message.author.bot) return;
-
     message.channel.send("hi");
-    // responsesHandler.response(client,message);
+    responsesHandler.response(client,message);
 });
 
 // THIS  MUST  BE  THIS  WAY
