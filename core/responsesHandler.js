@@ -3,7 +3,7 @@ module.exports = {
         //Responses
         var garfResponse = require('./commands/garf.js');
         var imageResponse = require('./commands/imageResponse.js');
-        var stringResponse = require('./commands/stringResponse.js/index.js');
+        var stringResponse = require('./commands/stringResponse.js');
 
         message.channel.send("hi2");
     }
