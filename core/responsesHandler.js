@@ -8,8 +8,8 @@ module.exports = {
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("garf")){
             garfResponse.response(message);
         }
-        // else if (imageResponse.keywords.includes(message.content.toLowerCase())){
-        //     imageResponse.response(message);
-        // }
+        else if (imageResponse.keywords.includes(message.content.toLowerCase())){
+            imageResponse.response(message);
+        }
     }
 };

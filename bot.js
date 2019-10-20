@@ -4,7 +4,7 @@ const responsesHandler = require('./core/responsesHandler.js');
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setPresence({ game: { name: 'testing[4]', type: 0 } });
+    client.user.setPresence({ game: { name: 'testing[5]', type: 0 } });
 });
 
  
