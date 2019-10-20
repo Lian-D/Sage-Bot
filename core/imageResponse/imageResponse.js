@@ -6,26 +6,24 @@
 module.exports = {
     keywords: ["dab", "kaj", "epic", "our lord and savior", "minion"],
     response: function(message){
-        
-        function sendimage(text, url){
-            message.channel.send(text, { files: [url] });
-        }
-
+        message.channel.send("I'm looking for image");
         function sendMinion(url){
             var randomIndex = (Math.floor(Math.random() * 8));
         }
 
         if (message.content == "dab"){
-           sendimage(" ", "./resources/dab2.png");
+            message.channel.send(" ", { files: ["./resources/dab2.png"] });
         }
         else if (message.content == "our lord and savior"){
-            sendimage("RUSSEL", "./resources/lord.png");
+            message.channel.send(" ", { files: ["./resources/lord.png"] });
         }
         else if (message.content == "kaj"){
-            sendimage(" ", "./resources/kaj.gif");
+            message.channel.send(" ", { files: ["./resources/tenor.gif"] });
         }
         else if (message.content == "epic"){
-            sendimage("Le epic win", "./resources/based.gif");
+            message.channel.send("Le epic win", { files: ["./resources/based.gif"] });
         }
+
+
     }
 }
