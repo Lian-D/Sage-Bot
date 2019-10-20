@@ -4,6 +4,7 @@
 * @returns returns image objs that are to be turned into a meme
 */
 module.exports = {
+    keywords: ["dab", "kaj", "epic", "our lord and savior"],
     response: function(message){
         switch (message){
             case "dab": 

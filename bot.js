@@ -11,8 +11,7 @@ client.on('ready', () => {
 client.on('message', message => {
     //Ignore itself and other bots
     if(message.author.bot) return;
-
-    message.channel.send("hi");
+    // message.channel.send("hi");
     responsesHandler.response(client,message);
 });
 

@@ -6,5 +6,6 @@ module.exports = {
         var stringResponse = require('./commands/stringResponse.js');
 
         message.channel.send("hi2");
+        garfResponse.response(message);
     }
 };

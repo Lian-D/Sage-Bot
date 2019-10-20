@@ -1,13 +1,5 @@
 module.exports = {
     response: function(message){
-        var responseObj = {
-            responseType: "string",
-            context: null,
-        };
-        function setResponseObj(msg){
-            responseObj.context = msg;
-        };
-
         if (message.toLowerCase().includes("cs")){
             setResponseObj("CS?");
         }  

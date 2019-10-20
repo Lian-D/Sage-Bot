@@ -4,6 +4,7 @@
 * @returns a generated garfielf meme
 */
 module.exports = {
+    keywords: ["garf"],
     response: function(message){
         var garfComments = ["Get up, Garcfred. I won't harm a man who is defenceless",
         "It cannot be! Newspper sword",
@@ -27,17 +28,11 @@ module.exports = {
         "https://www.youtube.com/watch?v=ss6hwhyFwdM",
         "https://www.youtube.com/watch?v=qJTF0ogoHpQ"
     ];
-
-    var reponseObj = {
-        responseType: "string",
-        context: null,
-    };
-
     var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
 
-    var message = garfComments[randomIndex1] + " " + garfLinks[randomIndex2];
-    reponseObj.context = message;
-    return responseObj;
+    var response = garfComments[randomIndex1] + " " + garfLinks[randomIndex2];
+    
+    message.channel.send(reponse);
     }
 }
