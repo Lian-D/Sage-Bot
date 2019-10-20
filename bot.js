@@ -4,7 +4,7 @@ const responsesHandler = require('./core/responsesHandler.js');
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setPresence({ game: { name: 'MINIONS[1]', type: 0 } });
+    client.user.setPresence({ game: { name: 'string response enabled', type: 0 } });
 });
 
  

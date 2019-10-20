@@ -11,8 +11,8 @@ module.exports = {
         else if (imageResponse.keywords.includes(message.content.toLowerCase())){
             imageResponse.response(message);
         }
-        else if (stringResponse.keywords.includes(message.content.toLowerCase())){
-            imageResponse.response(message);
+        else if (stringResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("cs")){
+           stringResponse.response(message);
         }
     }
 };
