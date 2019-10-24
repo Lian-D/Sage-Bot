@@ -15,7 +15,7 @@ module.exports = {
             message.channel.send("", { files: ["./core/imageResponse/resources/memes/kaj.gif"]});
         }
         else if (message.content == "epic"){
-            message.channel.send("**Le epic win**", { files: ["./core/imageResponse/resources/memes/epic.gif"]});
+            message.channel.send("**@MeTT#8510 said he'd stop playing CSGO**", { files: ["./core/imageResponse/resources/memes/epic.gif"]});
         }
         else if (message.content.includes ("minion")){
             var randomIndex = (Math.floor(Math.random() * 8));
