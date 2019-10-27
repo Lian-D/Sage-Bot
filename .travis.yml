@@ -3,3 +3,5 @@ node_js:
   - 7
 script:
   - "node bot.js"
+env:
+  - BOT_TOKEN="postgres"
