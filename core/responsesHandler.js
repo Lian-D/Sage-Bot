@@ -5,6 +5,7 @@ module.exports = {
         var imageResponse = require('./imageResponse/imageResponse.js');
         var stringResponse = require('./commands/stringResponse.js');
         var stockResponse = require('./stocks/stockFetcher.js');
+        var gamble = require('./gambling/roll.js');
         var wikiResponse = require('./wikipedia/wikipedia.js');
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("garf")){
@@ -19,6 +20,9 @@ module.exports = {
         else if (message.content.includes(stockResponse.keywords[0])){
             var suffix = message.content.replace('stock ','');
             stockResponse.response(message,suffix);
+        }
+        else if (imageResponse.keywords.includes(message.content.toLowerCase())){
+            gamble.response(message);
         }
         // else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){
         //     var query = message.content.replace (wikiResponse.keywords[0],"");
