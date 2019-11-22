@@ -21,7 +21,7 @@ module.exports = {
             var suffix = message.content.replace('stock ','');
             stockResponse.response(message,suffix);
         }
-        else if (imageResponse.keywords.includes(message.content.toLowerCase())){
+        else if (gamble.keywords.includes(message.content.toLowerCase())){
             gamble.response(message);
         }
         // else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){

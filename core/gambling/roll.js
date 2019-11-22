@@ -9,7 +9,6 @@ module.exports = {
         if (message == this.keywords[0]+" D20"){
             var randomIndex1 = (Math.floor(Math.random() * 20));
             message.reply(randomIndex1);
-
         }
     }
 }
