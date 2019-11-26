@@ -6,7 +6,7 @@
 module.exports = {
     keywords: ["roll"],
     response: function(message){
-        if (message == this.keywords[0]+" D20"){
+        if (message.content == this.keywords[0]+" D20"){
             var randomIndex1 = (Math.floor(Math.random() * 20));
             message.reply(randomIndex1);
         }

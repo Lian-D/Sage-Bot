@@ -9,7 +9,7 @@ module.exports = {
               if(error){
                     message.channel.send("couldn't get stock: " + error);
               } else {
-                    message.channel.send(JSON.stringify(snapshot));
+                    // message.channel.send(JSON.stringify(snapshot));
                     message.channel.send(snapshot.exchangeName
                       + "\nprice: $" + snapshot.regularMarketPrice);
               }
