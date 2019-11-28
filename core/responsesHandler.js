@@ -8,7 +8,7 @@ module.exports = {
         // var gamble = require('./gambling/roll.js');
         var wikiResponse = require('./wikipedia/wikipedia.js');
 
-        if (garfResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("garf")){
+        if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse)){
             garfResponse.response(message);
         }
         else if (imageResponse.keywords.includes(message.content.toLowerCase())){
@@ -21,14 +21,16 @@ module.exports = {
             var suffix = message.content.replace('stock ','');
             stockResponse.response(message,suffix);
         }
-        // else if (gamble.keywords.includes(message.content.toLowerCase())  || message.content.toLowerCase().includes("roll")){
-        //     gamble.response(message);
-        // }
-        
-        // else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){
-        //     var query = message.content.replace (wikiResponse.keywords[0],"");
-        //     query = message.content.replace (wikiResponse.keywords[1],"");
-        //     wikiResponse.response(message, query);
-        // }
     }
 };
+
+//Function for enabling the case inwhich the message contains a specific string
+function cycleThroughKeywords(message, arr){
+	for (var i = 0; i < arr.length; i++){
+    if (message.toLowerCase().includes(arr[i])){
+  	    return true;
+		}
+	}
+  return false;
+}
+
