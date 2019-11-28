@@ -18,7 +18,7 @@ module.exports = {
            stringResponse.response(message);
         }
         else if (message.content.includes(stockResponse.keywords[0])){
-            var suffix = message.content.replace('stock ','');
+            var suffix = message.content.replace('getstock ','');
             stockResponse.response(message,suffix);
         }
     }
