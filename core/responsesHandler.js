@@ -6,9 +6,6 @@ module.exports = {
         var stringResponse = require('./commands/stringResponse.js');
         var stockResponse = require('./stocks/stockFetcher.js');
 	    var punResponse = require('./commands/pun.js');
-        var gondola = require('./gondolaAPI/gondolaResponse.js');
-        // var gamble = require('./gambling/roll.js');
-        // var wikiResponse = require('./wikipedia/wikipedia.js');
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse.keywords)){
             garfResponse.response(message);
