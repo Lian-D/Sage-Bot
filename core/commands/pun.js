@@ -30,11 +30,11 @@ module.exports = {
             "What do you call an ancient Egyptian?",                                        "An old giza",
             "What do you call a Roman leader putting on clothes?",                          "Caesar dressing",
             "What did the policeman say to the musical note?",                              "You're under a rest",
-            "What do you call a bald prisoner?",                                            "A |mooth criminal",
+            "What do you call a bald prisoner?",                                            "A smooth criminal",
             "What do snowmen do in their spare time?",                                      "Just chill",
-            "What did the Three Little Pigs say when they quit their job?",                 "This is the|last straw",
+            "What did the Three Little Pigs say when they quit their job?",                 "This is the last straw",
             "What did the tomatoes say to the cucumbers?",                                  "Lettuce introduce ourselves",
-            "What do you call a pile of cats?",                                             "A ||meow-tan||",
+            "What do you call a pile of cats?",                                             "A meow-tan",
 
         ];
 
