@@ -5,13 +5,7 @@ module.exports = {
         var imageResponse = require('./imageResponse/imageResponse.js');
         var stringResponse = require('./commands/stringResponse.js');
         var stockResponse = require('./stocks/stockFetcher.js');
-<<<<<<< Updated upstream
-=======
-        // var gondola = require('./gondolaAPI/gondolaResponse.js');
->>>>>>> Stashed changes
-        // var gamble = require('./gambling/roll.js');
-        // var wikiResponse = require('./wikipedia/wikipedia.js');
-	var punResponse = require('./commands/pun,js');
+	    var punResponse = require('./commands/pun.js');
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse.keywords)){
             garfResponse.response(message);
@@ -26,15 +20,9 @@ module.exports = {
             var suffix = message.content.replace('getstock ','');
             stockResponse.response(message,suffix);
         }
-<<<<<<< Updated upstream
-	else if (stringResponse.keywords.includes(message.content.toLowerCase().includes("pun")) {
+    	else if (stringResponse.keywords.includes(message.content.toLowerCase().includes("pun"))) {
             punResponse.response(message);
         }
-=======
-        // else if (message.content.includes(gondola.keywords[0])){
-        //     gondola.response(message);
-        // }
->>>>>>> Stashed changes
     }
 };
 
