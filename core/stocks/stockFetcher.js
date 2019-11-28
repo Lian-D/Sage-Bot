@@ -11,7 +11,7 @@ module.exports = {
               } else {
                     // message.channel.send(JSON.stringify(snapshot));
                     message.channel.send(snapshot.exchangeName
-                      + "\nprice: $" + snapshot.regularMarketPrice);
+                      + "\n**Previous Open:** $" + snapshot.previousClose + "\n**open:** $" + snapshot.open + "\n**dayLow:** $" + snapshot.dayLow + "\n**open:** $" + snapshot.dayHigh + "\n**dayHigh:** $" + snapshot.open);
               }
           });
     }
