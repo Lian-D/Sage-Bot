@@ -1,9 +1,9 @@
 module.exports = {
-    keywords: ["gondola "],
+    keywords: ["gondola"],
     response: function(message){
         var http = require('follow-redirects').http;
         
-        http.get('http://bit.ly/900913', function (res) {
+        http.get('https://gondola.stravers.net/random-raw', function (res) {
             res.on('data', function (chunk) {
              console.log(chunk);
              message.channel.send(chunk);
