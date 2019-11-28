@@ -7,6 +7,7 @@ module.exports = {
         var stockResponse = require('./stocks/stockFetcher.js');
         // var gamble = require('./gambling/roll.js');
         // var wikiResponse = require('./wikipedia/wikipedia.js');
+	var punResponse = require('./commands/pun,js');
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse.keywords)){
             garfResponse.response(message);
@@ -20,6 +21,9 @@ module.exports = {
         else if (message.content.includes(stockResponse.keywords[0])){
             var suffix = message.content.replace('getstock ','');
             stockResponse.response(message,suffix);
+        }
+	else if (stringResponse.keywords.includes(message.content.toLowerCase().includes("pun")) {
+            punResponse.response(message);
         }
     }
 };
