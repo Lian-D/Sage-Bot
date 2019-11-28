@@ -3,7 +3,7 @@
 * @returns a message
 */
 module.exports = {
-    keywords: ["cs", "keikaku", "benis"],
+    keywords: ["cs", "keikaku", "benis", "test"],
     response: function(message){
         if (message.content.toLowerCase().includes("cs")){
             message.channel.send("cs?");
