@@ -23,7 +23,7 @@ module.exports = {
             var suffix = message.content.replace('getstock ','');
             stockResponse.response(message,suffix);
         }
-    	else if (stringResponse.keywords.includes(message.content.toLowerCase().includes("pun"))) {
+    	else if (punResponse.keywords.includes(message.content.toLowerCase())) {
             punResponse.response(message);
         }
     }
