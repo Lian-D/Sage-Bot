@@ -8,7 +8,7 @@ module.exports = {
     response: function(message){
         if (message.content == this.keywords[0]+" D20"){
             var randomIndex1 = (Math.floor(Math.random() * 20));
-            message.reply(randomIndex1);
+            message.channel.reply(randomIndex1);
         }
     }
 }

@@ -21,9 +21,10 @@ module.exports = {
             var suffix = message.content.replace('stock ','');
             stockResponse.response(message,suffix);
         }
-        else if (gamble.keywords.includes(message.content.toLowerCase())){
+        else if (gamble.keywords.includes(message.content.toLowerCase())  || message.content.toLowerCase().includes("roll")){
             gamble.response(message);
         }
+        
         // else if (message.content.toLowerCase().includes(wikiResponse.keywords[0]) || message.content.toLowerCase().includes(wikiResponse.keywords[1])){
         //     var query = message.content.replace (wikiResponse.keywords[0],"");
         //     query = message.content.replace (wikiResponse.keywords[1],"");
