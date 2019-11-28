@@ -8,13 +8,13 @@ module.exports = {
         // var gamble = require('./gambling/roll.js');
         // var wikiResponse = require('./wikipedia/wikipedia.js');
 
-        if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse)){
+        if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse.keywords)){
             garfResponse.response(message);
         }
-        else if (imageResponse.keywords.includes(message.content.toLowerCase())){
+        else if (imageResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, imageResponse.keywords)){
             imageResponse.response(message);
         }
-        else if (stringResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("cs")){
+        else if (stringResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("cs") || cycleThroughKeywords(message.content, imageResponse.keywords)){
            stringResponse.response(message);
         }
         else if (message.content.includes(stockResponse.keywords[0])){
