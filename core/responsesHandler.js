@@ -13,7 +13,7 @@ module.exports = {
         else if (imageResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, imageResponse.keywords)){
             imageResponse.response(message);
         }
-        else if (stringResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("cs") || cycleThroughKeywords(message.content, imageResponse.keywords)){
+        else if (stringResponse.keywords.includes(message.content.toLowerCase()) || message.content.toLowerCase().includes("cs") || cycleThroughKeywords(message.content, stringResponse.keywords)){
            stringResponse.response(message);
         }
         else if (message.content.includes(stockResponse.keywords[0])){
