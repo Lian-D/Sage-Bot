@@ -1,5 +1,5 @@
 module.exports = {
-    keywords: ["stock"],
+    keywords: ["getstock "],
     response: function(message, suffix){
         var yahooFinance = require('yahoo-finance');
         yahooFinance.quote({
@@ -10,8 +10,8 @@ module.exports = {
                     message.channel.send("couldn't get stock: " + error);
               } else {
                     // message.channel.send(JSON.stringify(snapshot));
-                    message.channel.send(snapshot.exchangeName
-                      + "\n**Previous Open:** $" + snapshot.previousClose + "\n**open:** $" + snapshot.open + "\n**dayLow:** $" + snapshot.dayLow + "\n**open:** $" + snapshot.dayHigh + "\n**dayHigh:** $" + snapshot.open);
+                    message.channel.send(snapshot.price.longName
+                      + "\n**Post Market Price:** $"+snapshot.price.regularMarketPrice);
               }
           });
     }
