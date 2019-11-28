@@ -41,7 +41,7 @@ module.exports = {
 
         var randomIndex = (Math.floor(Math.random() * thePuns.length/2))*2;
 
-        var response = "**" + thePuns[randomIndex] + "\n||" +thePuns[randomIndex+1] + "||**";
+        var response = "**" + thePuns[randomIndex] + "**\n||" +thePuns[randomIndex+1] + "||";
 
         message.channel.send(response);
     }
