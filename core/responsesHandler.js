@@ -5,6 +5,7 @@ module.exports = {
         var imageResponse = require('./imageResponse/imageResponse.js');
         var stringResponse = require('./commands/stringResponse.js');
         var stockResponse = require('./stocks/stockFetcher.js');
+        var gondola = require('./gondolaAPI/gondolaResponse.js');
         // var gamble = require('./gambling/roll.js');
         // var wikiResponse = require('./wikipedia/wikipedia.js');
 
@@ -20,6 +21,9 @@ module.exports = {
         else if (message.content.includes(stockResponse.keywords[0])){
             var suffix = message.content.replace('getstock ','');
             stockResponse.response(message,suffix);
+        }
+        else if (message.content.includes(gondola.keywords[0])){
+            gondola.response(message);
         }
     }
 };

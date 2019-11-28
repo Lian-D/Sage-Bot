@@ -22,7 +22,10 @@
       
       "mysql": ">=2.5.0",
 
-      "yahoo-finance": "0.3.x"
+      "yahoo-finance": "0.3.x",
+
+      "follow-redirects": "1.9.0"
+      
 
     }
   
