@@ -11,9 +11,9 @@ module.exports = {
               } else {
                     // message.channel.send(JSON.stringify(snapshot));
                     message.channel.send("**"+snapshot.price.longName+"** - "+snapshot.price.symbol
-                      + "\n**Current Market Price:** $"+snapshot.price.regularMarketPrice+" "+snapshot.summaryDetai.currency
-                      + "\n**Fifty Day Avg:** $"+snapshot.summaryDetai.fiftyDayAverage+" "+snapshot.summaryDetai.currency
-                      + "\n**Two Hundred Day Avg:** $"+snapshot.summaryDetai.twoHundredDayAverage+" "+snapshot.summaryDetai.currency);
+                      + "\n**Current Market Price:** $"+snapshot.price.regularMarketPrice+" "+snapshot.summaryDetail.currency
+                      + "\n**Fifty Day Avg:** $"+snapshot.summaryDetail.fiftyDayAverage+" "+snapshot.summaryDetail.currency
+                      + "\n**Two Hundred Day Avg:** $"+snapshot.summaryDetail.twoHundredDayAverage+" "+snapshot.summaryDetail.currency);
               }
           });
     }
