@@ -1,7 +1,9 @@
 /**
-* @Author Chris Wang, refactored by Lian Duan
-* @params string message
-* @returns a generated garfielf meme
+* @Author Kaj Guy the Awesome Guy
+* format
+* pun build up, the pun
+* make sure to put a "," at the end of the list containing the puns.
+* This is because Math.random() goes from 0 to 1, not including 1. 
 */
 module.exports = {
     keywords: ["pun","dad"],
