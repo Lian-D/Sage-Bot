@@ -37,7 +37,8 @@ module.exports = {
             "What did the Three Little Pigs say when they quit their job?",                 "This is the last straw",
             "What did the tomatoes say to the cucumbers?",                                  "Lettuce introduce ourselves",
             "What do you call a pile of cats?",                                             "A meow-tan",
-
+            "What does an egg experience when its asked what came first?",                  "An eggsistential crisis",
+            "No",                                                                           "REEEEEEEEEEEEEEEEEEEEEEEEE",
         ];
 
 
