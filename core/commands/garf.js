@@ -16,6 +16,12 @@ module.exports = {
         "I cannot allow you to clam another life, Gafrindle",
         "Then give me all you'vee got John Aldrin, cause I won't stop",
         "It's over, Garrfellini, I won't waste Antober Seventh",
+        "Time to inhale lagnar",
+        "Please help this isn't a joke I'm being held to make these stupid requests please they have my wife and kids call the pol-",
+        "Marbledune, Dilbart, Chalrie Bowrn... Rest in peece",
+        "Don't start with your fairly tales about stars, mallomar",
+        "You cant kill me, Jom. What would our mother think?"
+                            
     ];
         var garfLinks = ["https://www.youtube.com/watch?v=OGbhJjXl9Rk",
         "https://www.youtube.com/watch?v=2vWFEylvELI",
@@ -26,7 +32,13 @@ module.exports = {
         "https://www.youtube.com/watch?v=gRVLGbqsKAw",
         "https://www.youtube.com/watch?v=s9rwn0oGIj8",
         "https://www.youtube.com/watch?v=ss6hwhyFwdM",
-        "https://www.youtube.com/watch?v=qJTF0ogoHpQ"
+        "https://www.youtube.com/watch?v=qJTF0ogoHpQ",
+        "https://www.youtube.com/watch?v=vO8Sj7xv9FE",
+        "https://www.youtube.com/watch?v=jzuscWiRYww", 
+        "https://www.youtube.com/watch?v=wzOPIiGNvVo",
+        "https://www.youtube.com/watch?v=D_MubBVkTkU",
+        "https://www.youtube.com/watch?v=YoUFyQYpv8M"
+                         
     ];
     var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
