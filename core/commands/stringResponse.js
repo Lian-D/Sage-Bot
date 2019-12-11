@@ -3,7 +3,7 @@
 * @returns a message
 */
 module.exports = {
-    keywords: ["cs", "keikaku", "benis"],
+    keywords: ["cs", "keikaku", "benis", "test"],
     response: function(message){
         if (message.content.toLowerCase().includes("cs")){
             message.channel.send("cs?");
@@ -17,8 +17,8 @@ module.exports = {
         // else if (message.content.toLowerCase.includes("karen")){
         //     message.channel.send("LET ME SPEAK TO YOUR MANAGER!!1!");
         // }
-        // else if (message.content.toLowerCase.includes("test")){
-        //     message.channel.send("this was supposed to be a meme");     
-        // }
+        else if (message.content == "test"){
+             message.channel.send("this was supposed to be a meme");     
+        }
     }
 };
