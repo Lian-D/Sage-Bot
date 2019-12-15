@@ -39,6 +39,11 @@ module.exports = {
             "What do you call a pile of cats?",                                             "A meow-tan",
             "What does an egg experience when its asked what came first?",                  "An eggsistential crisis",
             "No",                                                                           "REEEEEEEEEEEEEEEEEEEEEEEEE",
+            
+            "I was wondering why the ball was getting bigger,",                              "Then it hit me",
+            "I have a few jokes about unemployed people,",                                   "But none of them work",
+            
+            "Will glass coffins ever be a success?",                                         "Remains to be seen",
         ];
 
 
