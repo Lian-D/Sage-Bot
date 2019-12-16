@@ -6,28 +6,29 @@
 module.exports = {
     keywords: ["garf"],
     response: function(message){
-        var garfComments = ["Get up, Gayfred. I won't fite a man who is defenceless",
-        "It cannot be! Newspper sword",
-        "Not everyoen is evil, Naermo. Some are just misguide",
-        "You think you can beat me, Marmalade? I'll cut you to rubble!",
-        "Lasagna breath",
-        "Well, Miracleduck, it seems you lost",
-        "The Sunday funnies belong to no man",
-        "I cannot allow you to clam another life, Gafrindle",
-        "Then give me all you'vee got John Aldrin, cause I won't stop",
-        "It's over, Garrfellini, I won't waste Antober Seventh",
-        "Time to inhale lagnar",
+        /// Some of these are invalid, manually checked
+        var garfComments = ["Get up, Gayfred. I won't fite a man who is defenceless",	///Valid
+        "It cannot be! Newspper sword",							///Valid
+        "Not everyoen is evil, Naermo. Some are just misguide",				///Valid
+        "You think you can beat me, Marmalade? I'll cut you to rubble!",		///Valid
+        "Lasagna breath",								///Valid
+        "Well, Miracleduck, it seems you lost",						///Valid
+        "The Sunday funnies belong to no man",						///Valid
+        "I cannot allow you to clam another life, Gafrindle",				///Valid
+        "Then give me all you'vee got John Aldrin, cause I won't stop",			///Valid
+        "It's over, Garrfellini, I wont waste Antober Seventh",
+        "Time to inhale lagnar",							///Valid
         "Please help this isn't a joke I'm being held to make these stupid requests please they have my wife and kids call the pol-",
-        "Marbledune, Dilbart, Chalrie Bowrn... Rest in peece",
-        "Don't start with your fairly tales about stars, mallomar",
-        "You cant kill me, Jom. What would our mother think?",
-        "It must be my brithday then, becausse now I get to kill all of you",
-        "You think you can keep getting away with your'e crimes, Graffles?",
-        "Rest in peace, Mortim3r",
-        "Time to dia, old friend",
-        "And then jown killed everyone, including Shorler's panois",
-        "Have you come to take my Gradiffle parts?",
-        "Rest in peproni, Naromal. You're finally in Hel wereh you belgon",
+        "Marbledune, Dilbart, Chalrie Bowrn... Rest in peece",				///Valid
+        "Don't start with your fairly tales about stars, Mallomar",			///Valid
+        "You cant kill me, Jom. What would our mother think?",				///Valid
+        "It must be my brithday then, becausse now I get to kill all of you",		///Valid
+        "You think you can keep getting away with your'e crimes, Graffles?",		///Valid
+        "Rest in peace, Mortim3r",							///Valid
+        "Time to dia, old friend",							///Valid
+        "And then Jown killed everyone, including Shorler's panois",			///Valid
+        "Have you come to take my Gradiffle parts?",					///Valid
+        "Rest in peproni, Naromal. You're finally in Hel wereh you belgon"		///Valid
     ];
         var garfLinks = ["https://www.youtube.com/watch?v=OGbhJjXl9Rk",
         "https://www.youtube.com/watch?v=2vWFEylvELI",
@@ -61,7 +62,7 @@ module.exports = {
         "https://www.youtube.com/watch?v=4yhWIhP2Q60",
         "https://www.youtube.com/watch?v=K0osM3ybWys",
         "https://www.youtube.com/watch?v=kBKkpLxDKQk",
-        "https://www.youtube.com/watch?v=wwEgMGfOyqU",
+        "https://www.youtube.com/watch?v=wwEgMGfOyqU"
     ];
     var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
