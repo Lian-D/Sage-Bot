@@ -64,7 +64,7 @@ module.exports = {
         "https://www.youtube.com/watch?v=kBKkpLxDKQk",
         "https://www.youtube.com/watch?v=wwEgMGfOyqU"
     ];
-    var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
+    var randomIndex1 = (Math.floor(Math.random() * garfLinks.length - 1));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
 
     var response = "**"+garfComments[randomIndex1]+"**" + "\n" + garfLinks[randomIndex2];
