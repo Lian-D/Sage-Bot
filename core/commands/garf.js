@@ -62,7 +62,8 @@ module.exports = {
         "https://www.youtube.com/watch?v=4yhWIhP2Q60",
         "https://www.youtube.com/watch?v=K0osM3ybWys",
         "https://www.youtube.com/watch?v=kBKkpLxDKQk",
-        "https://www.youtube.com/watch?v=wwEgMGfOyqU"
+        "https://www.youtube.com/watch?v=wwEgMGfOyqU",
+        "https://www.youtube.com/watch?v=cE0iYqU8QgE"
     ];
     var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
