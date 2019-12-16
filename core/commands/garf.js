@@ -27,7 +27,7 @@ module.exports = {
         "Time to dia, old friend",
         "And then jown killed everyone, including Shorler's panois",
         "Have you come to take my Gradiffle parts?",
-        "Rest in peproni, Naromal. You're finally in Hel wereh you belgon"
+        "Rest in peproni, Naromal. You're finally in Hel wereh you belgon",
     ];
         var garfLinks = ["https://www.youtube.com/watch?v=OGbhJjXl9Rk",
         "https://www.youtube.com/watch?v=2vWFEylvELI",
@@ -61,7 +61,7 @@ module.exports = {
         "https://www.youtube.com/watch?v=4yhWIhP2Q60",
         "https://www.youtube.com/watch?v=K0osM3ybWys",
         "https://www.youtube.com/watch?v=kBKkpLxDKQk",
-        "https://www.youtube.com/watch?v=wwEgMGfOyqU"
+        "https://www.youtube.com/watch?v=wwEgMGfOyqU",
     ];
     var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
