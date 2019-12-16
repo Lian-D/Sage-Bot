@@ -6,7 +6,7 @@
 module.exports = {
     keywords: ["garf"],
     response: function(message){
-        /// Some of these are invalid, manually checked
+        /// Some of these are possibly invalid, manually checked
         var garfComments = ["Get up, Gayfred. I won't fite a man who is defenceless",	///Valid
         "It cannot be! Newspper sword",							///Valid
         "Not everyoen is evil, Naermo. Some are just misguide",				///Valid
