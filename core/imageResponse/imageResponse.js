@@ -18,7 +18,7 @@ module.exports = {
             message.channel.send("**Le epic win**", { files: ["./core/imageResponse/resources/memes/epic.gif"]});
         }
         else if (message.content.includes ("minion")){
-            message.channel.send("", { files: ["./core/imageResponse/resources/it._got._worse.png"]});
+            message.channel.send("", { files: ["./core/imageResponse/resources/minion/it._got._worse.png"]});
             //var randomIndex = (Math.floor(Math.random() * 8));
             //message.channel.send("**GOD I LOVE MINIONS**", { files: ["./core/imageResponse/resources/minion/minion"+randomIndex+".png"]});
         }
