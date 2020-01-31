@@ -8,7 +8,7 @@ function createURL(city, countryCode) {
         city +
         //',' +
         //countryCode +
-        '&units=metric&appid=b6b5bb3ffffbc02bbed71ff418922e39';
+        '&units=metric&appid=';
 
     return url;
 }
