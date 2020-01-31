@@ -1,7 +1,7 @@
 /**
 * @Author Lian Duan
 * @params string message
-* @returns a generated garfielf meme
+* @returns roll the dice!
 */
 module.exports = {
     keywords: ["roll"],
