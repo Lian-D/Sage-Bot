@@ -70,7 +70,7 @@ module.exports = {
     var randomIndex1 = (Math.floor(Math.random() * garfLinks.length));
     var randomIndex2 = (Math.floor(Math.random() * garfComments.length));
 
-    var response = "**"+garfComments[randomIndex1]+"**" + "\n" + garfLinks[randomIndex2];
+    var response = "**"+garfComments[randomIndex2]+"**" + "\n" + garfLinks[randomIndex1];
 
     message.channel.send(response);
     }
