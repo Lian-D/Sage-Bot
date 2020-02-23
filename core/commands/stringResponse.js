@@ -3,7 +3,7 @@
 * @returns a message
 */
 module.exports = {
-    keywords: ["cs", "keikaku", "benis", "borf", "fortnite"],
+    keywords: ["cs", "keikaku", "benis", "borf", "fortnite", " "],
     response: function(message){
         if (message.content.toLowerCase().includes("cs")){
             message.channel.send("cs?");
@@ -30,7 +30,7 @@ module.exports = {
             message.channel.send("\n⠀⠀⠀⣶⣿⣶\n⠀⠀⠀⣿⣿⣿⣀\n⠀⣀⣿⣿⣿⣿⣿⣿\n⣶⣿⠛⣭⣿⣿⣿⣿\n⠛⠛⠛⣿⣿⣿⣿⠿\n⠀⠀⠀⠀⣿⣿⣿\n⠀⠀⣀⣭⣿⣿⣿⣿⣀\n⠀⠤⣿⣿⣿⣿⣿⣿⠉\n⠀⣿⣿⣿⣿⣿⣿⠉\n⣿⣿⣿⣿⣿⣿\n⣿⣿⣶⣿⣿\n⠉⠛⣿⣿⣶⣤\n⠀⠀⠉⠿⣿⣿⣤\n⠀⠀⣀⣤⣿⣿⣿\n⠀⠒⠿⠛⠉⠿⣿\n⠀⠀⠀⠀⠀⣀⣿⣿\n⠀⠀⠀⠀⣶⠿⠿⠛");
         // DONT TAKE THIS FROM ME HE'S SPECIAL TO ME
         }
-        else if (stringReponse.keywords.includes("a")){
+        else if (stringReponse.keywords.includes(" ")){
 			message.channel.send("https://media.discordapp.net/attachments/648400331583258631/680164093885415438/Bing_Boing_Bing_Bing_Boing_Bing_Bing-1-1.mp4");
         }
     }
