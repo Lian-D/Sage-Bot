@@ -44,6 +44,9 @@ module.exports = {
             "I have a few jokes about unemployed people,",                                   "But none of them work",
             
             "Will glass coffins ever be a success?",                                         "Remains to be seen",
+
+            "Imagine",                                                                       "Painting a leather sofa",
+            "Why did the chicken cross the road",                                            "Look up the Lavon Affair and the USS Liberty Incident, this is not a joke",
         ];
 
 
