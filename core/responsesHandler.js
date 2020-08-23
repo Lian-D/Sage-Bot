@@ -6,9 +6,13 @@ module.exports = {
         var stringResponse = require('./commands/stringResponse.js');
         var stockResponse = require('./stocks/stockFetcher.js');
 	    var punResponse = require('./commands/pun.js');
+	    var react = require('./commands/react.js');
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse.keywords)){
             garfResponse.response(message);
+        }
+        else if (message.content.includes(react.keywords[0])){
+            react.response(message);
         }
         else if (imageResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, imageResponse.keywords)){
             imageResponse.response(message);
