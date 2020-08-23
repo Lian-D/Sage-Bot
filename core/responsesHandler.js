@@ -10,7 +10,7 @@ module.exports = {
 
         if (garfResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, garfResponse.keywords)) {
             garfResponse.response(message);
-        } else if (message.content.toL.includes(react.keywords[0])) {
+        } else if (message.content.toLowerCase().includes(react.keywords[0])) {
             react.response(message);
         } else if (imageResponse.keywords.includes(message.content.toLowerCase()) || cycleThroughKeywords(message.content, imageResponse.keywords)) {
             imageResponse.response(message);
