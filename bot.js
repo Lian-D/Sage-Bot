@@ -4,15 +4,15 @@ const responsesHandler = require('./core/responsesHandler.js');
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setPresence({ game: { name: 'WITH QUARANTINE', type: 0 } });
+    client.user.setPresence({game: {name: 'WITH QUARANTINE', type: 0}});
 });
 
- 
+
 client.on('message', message => {
     //Ignore itself and other bots
-    if(message.author.bot) return;
+    if (message.author.bot) return;
     // message.channel.send("hi");
-    responsesHandler.response(client,message);
+    responsesHandler.response(client, message);
 });
 
 // THIS  MUST  BE  THIS  WAY
