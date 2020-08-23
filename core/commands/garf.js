@@ -6,6 +6,7 @@
 module.exports = {
     keywords: ["garf"],
     response: function (message) {
+        console.log("garf for "+message.member.user.tag);
         /// Some of these are possibly invalid, manually checked
         var garfComments = ["Get up, Gayfred. I won't fite a man who is defenceless",	///Valid
             "It cannot be! Newspper sword",							///Valid

@@ -5,6 +5,7 @@
 module.exports = {
     keywords: ["dab", "kaj", "epic", "our lord and savior", "minion", "festive"],
     response: function(message){
+        console.log("Image Response For "+message.member.user.tag);
         if (message.content == "dab"){
             message.channel.send("", { files: ["./core/imageResponse/resources/memes/dab2.png"]});
         }

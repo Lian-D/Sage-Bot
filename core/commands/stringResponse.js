@@ -5,6 +5,7 @@
 module.exports = {
     keywords: ["cs", "keikaku", "benis", "borf", "fortnite", "bing boing"],
     response: function (message) {
+        console.log("stringResponse for "+message.member.user.tag);
         if (message.content.toLowerCase().includes("cs")) {
             message.channel.send("cs?");
         } else if (message.content.toLowerCase().includes("keikaku")) {

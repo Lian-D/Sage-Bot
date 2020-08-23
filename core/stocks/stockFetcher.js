@@ -1,6 +1,7 @@
 module.exports = {
     keywords: ["getstock "],
     response: function(message, suffix){
+        console.log("stocks for "+message.member.user.tag);
         var yahooFinance = require('yahoo-finance');
         yahooFinance.quote({
             symbol: suffix,

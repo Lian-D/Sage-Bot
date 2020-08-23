@@ -8,6 +8,7 @@
 module.exports = {
     keywords: ["pun", "dad"],
     response: function (message) {
+        console.log("pun for "+message.member.user.tag);
         var thePuns = [
             "Did you hear why Medusa broke up with her boyfriend?", "He was always stoned",
             "Did you hear about the napping car?", "I guess it was tired",
