@@ -10,4 +10,5 @@ This is an out of season april fools joke
 - Chat commands
 - Image commands
 - Stock look-up
+- Polling with poll: keyword
 - Garfielf meme replies
