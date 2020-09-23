@@ -5,6 +5,7 @@
 module.exports = {
     keywords: ["dab", "kaj", "epic", "our lord and savior", "minion", "festive"],
     response: function(message){
+        console.log("Image Response For "+message.member.user.tag);
         if (message.content == "dab"){
             message.channel.send("", { files: ["./core/imageResponse/resources/memes/dab2.png"]});
         }
@@ -18,7 +19,7 @@ module.exports = {
             message.channel.send("**Le epic win**", { files: ["./core/imageResponse/resources/memes/epic.gif"]});
         }
         else if (message.content.includes ("minion")){
-            var randomIndex = (Math.floor(Math.random() * 8));
+            var randomIndex = (Math.floor(Math.random() * 17));
             message.channel.send("**GOD I LOVE MINIONS**", { files: ["./core/imageResponse/resources/minion/minion"+randomIndex+".png"]});
         }
     }
