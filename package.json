@@ -9,7 +9,7 @@
   "dependencies": {
     "cheerio": "latest",
     "discord.js": "^11.5.1",
-    "follow-redirects": "1.9.0",
+    "follow-redirects": "1.15.6",
     "mysql": ">=2.5.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
